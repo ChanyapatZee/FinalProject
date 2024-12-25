@@ -1,0 +1,216 @@
+/* ปรับขนาดโลโก้ */
+.navbar-brand img {
+    width: 50px;  /* ขนาดโลโก้ */
+    height: auto;
+}
+
+/* ปรับการแสดงผลใน navbar */
+.navbar {
+    background-color: #333; /* สีพื้นหลังของ navbar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* ทำให้ navbar อยู่เหนือเนื้อหาอื่นๆ */
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f1f1f1 !important;
+}
+
+.navbar.scrolled {
+    background-color: #555; /* เปลี่ยนสีเมื่อเลื่อนหน้าจอ */
+}
+
+.header {
+    background: url('https://shorturl.asia/Qw15J') no-repeat center center/cover;
+    position: relative;
+}
+
+.header-box {
+    background-color: rgba(0, 0, 0, 0.7); /* สีดำโปร่งใส */
+    border-radius: 15px; /* มุมมน */
+    padding: 20px;
+    display: inline-block;
+    text-align: left; /* จัดข้อความให้อยู่ทางซ้าย */
+    max-width: 500px; /* จำกัดความกว้างของกล่อง */
+}
+
+.header h1,
+.header p {
+    margin: 0;
+}
+.header .btn {
+    margin-top: 15px;
+}
+
+
+body {
+    padding-top: 70px; /* เพิ่มพื้นที่ให้กับเนื้อหาด้านล่าง navbar */
+}
+.btn-facebook {
+    background-color: #3b5998; /* สีฟ้าของ Facebook */
+    color: white;
+}
+
+.btn-instagram {
+    background-color: #E4405F; /* สีชมพูของ Instagram */
+    color: white;
+}
+
+/* เพิ่มความแตกต่างเมื่อเลื่อนเมาส์ไปบนปุ่ม */
+.btn-facebook:hover {
+    background-color: #2d4373; /* สีเข้มขึ้นเมื่อ hover */
+}
+
+.btn-instagram:hover {
+    background-color: #c13584; /* สีเข้มขึ้นเมื่อ hover */
+}
+/* Header background */
+#header {
+    background-color: #333333; /* สีพื้นหลังใหม่ที่คุณต้องการ */
+    text-align: right; /* ขยับข้อความไปทางขวา */
+}
+
+
+/* กล่องพื้นหลังสำหรับแต่ละคอลัมน์ */
+.feature-box {
+    background-color: #ffffff; /* พื้นหลังสีขาว */
+    padding: 20px;
+    margin-bottom: 20px; /* เพิ่มระยะห่างระหว่างกล่อง */
+    border-radius: 10px; /* ทำมุมกลมให้กับกล่อง */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กล่อง */
+    transition: transform 0.3s ease-in-out; /* เพิ่มการเปลี่ยนแปลง */
+}
+
+/* เพิ่มเอฟเฟกต์เมื่อ hover ที่กล่อง */
+.feature-box:hover {
+    transform: translateY(-10px); /* ทำให้กล่องยกขึ้นเมื่อ hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* เงาลึกขึ้นเมื่อ hover */
+}
+
+.feature-box img {
+    margin-bottom: 15px; /* เพิ่มระยะห่างระหว่างรูปภาพและข้อความ */
+    width: 70px; /* ปรับขนาดรูป */
+    height: auto; /* คงอัตราส่วนของภาพ */
+}
+
+
+
+/* กล่อง CTA */
+.cta-box {
+    width: 500px; /* กำหนดขนาดความกว้าง */
+    height: 300px; /* กำหนดขนาดความสูง */
+    border-radius: 20px; /* ทำมุมกล่องโค้งมน */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ใส่เงาเล็กน้อย */
+}
+
+/* ปรับระยะห่างและปุ่ม */
+#cta-social {
+    gap: 20px; /* ระยะห่างระหว่างกล่อง */
+}
+
+.cta-box h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cta-box p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+/* ระยะห่างระหว่างปุ่ม */
+.cta-box .btn {
+    margin: 5px 10px; /* ระยะห่างแนวตั้ง 5px แนวนอน 10px */
+}
+
+
+.btn-facebook,
+.btn-instagram {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* สำหรับหน้าจอเล็ก */
+@media (max-width: 768px) {
+    .cta-box {
+        width: 100%; /* ขยายกล่องเต็มความกว้างจอ */
+        height: auto; /* ปรับความสูงอัตโนมัติ */
+    }
+}
+
+
+
+/* Footer background */
+footer {
+    background-color: #343a40;
+    color: white;
+}
+.header {
+    background: url('https://cdn.discordapp.com/attachments/1207190215945359360/1310289554086952980/file-J94jQErEFo5eCe8nFpVEWX.webp?ex=6746a7fd&is=6745567d&hm=ba57049f47d95a09584cb3ca79d44685be03d4df0c7f49dd43ce78e8b28ac1bf&') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    height: 100vh; /* กำหนดความสูงเต็มหน้าจอ */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.header::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5); /* สีดำโปร่งใส */
+z-index: -1;
+}
+@media (max-width: 768px) {
+    .header {
+    height: 70vh; /* ลดความสูงสำหรับอุปกรณ์เล็ก */
+    }
+}
+
+.feature-box i {
+    color: #4CAF50;
+    transition: transform 0.3s, color 0.3s;
+}
+.feature-box:hover i {
+    color: #388E3C;
+    transform: scale(1.2);
+}
+.btn-facebook {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-facebook:hover {
+    background-color: #365899;
+}
+.btn-instagram {
+    background: linear-gradient(45deg, #f093fb, #f5576c);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-instagram:hover {
+    background: linear-gradient(45deg, #d32f2f, #c2185b);
+}
+footer {
+    background: #2E2E2E;
+}
